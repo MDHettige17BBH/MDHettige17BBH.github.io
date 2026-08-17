@@ -1,50 +1,62 @@
-# malikhettige portfolio
+<div align="center">
 
-Two files. That's it.
+# Malik Dishan Hettige
 
-- `index.html` — the whole site (design, layout, logic)
-- `posts.json` — every writeup / update. Edit this to publish something new.
+**Self-taught Application Security Researcher**
 
-## Publish to GitHub Pages
+Hunting IDOR, authentication flaws, and business logic bugs on HackerOne VDP programs.
 
-1. Create a new GitHub repo. If you want it at `malikhettige.github.io`, name the repo **exactly** `malikhettige.github.io` (replace `malikhettige` with your actual GitHub username). Any other repo name still works, it just lives at `username.github.io/repo-name` instead of the root.
-2. Upload `index.html` and `posts.json` to the repo (drag-and-drop on github.com works fine, or `git push`).
-3. Go to the repo → **Settings → Pages** → under "Build and deployment", set Source to **Deploy from a branch**, branch `main`, folder `/ (root)`. Save.
-4. Wait ~1 minute, then visit the URL GitHub gives you.
+🔗 **[Live Portfolio →](https://malikdishan416.github.io)**
 
-To later point your own domain (e.g. malikdishanhettige.com) at it: same Settings → Pages page has a "Custom domain" field. GitHub will show you what DNS records to add wherever you buy the domain.
+[![X](https://img.shields.io/badge/X-@MalikDisha8108-000000?style=flat-square)](https://x.com/MalikDisha8108)
+[![HackerOne](https://img.shields.io/badge/HackerOne-@malikdishan17-494649?style=flat-square)](https://hackerone.com/malikdishan17)
+[![Hashnode](https://img.shields.io/badge/Blog-@malikonabove-2962FF?style=flat-square)](https://hashnode.com/@malikonabove)
+[![Email](https://img.shields.io/badge/Email-malikdishan09%40gmail.com-D14836?style=flat-square)](mailto:malikdishan09@gmail.com)
 
-## Adding a new writeup
+</div>
 
-Open `posts.json` and add a new object to the top of the array:
+---
 
-```json
-{
-  "id": "idor-example-program",
-  "title": "IDOR in [Program] user profile endpoint",
-  "date": "2026-08-18",
-  "type": "writeup",
-  "tags": ["idor", "access-control"],
-  "summary": "One-line summary shown in the feed list.",
-  "body": "First paragraph.\n\nSecond paragraph. Use \\n\\n between paragraphs."
-}
-```
+## About
 
-Rules:
-- `id` must be unique and URL-safe (lowercase, hyphens, no spaces) — it becomes the link.
-- `date` format: `YYYY-MM-DD`. Posts sort newest-first automatically.
-- `type` is a free label shown as a small tag — use `writeup`, `note`, `log`, `report-analysis`, whatever fits.
-- `tags` is optional, shown as `#hashtags`.
-- `body` supports plain paragraphs only (split on `\n\n`). No other formatting yet.
+I started teaching myself web application security at 17. No formal training, no bootcamp — just PortSwigger labs, disclosed reports read line by line, and the slow work of learning to think like the app instead of just clicking around it.
 
-Save, push to GitHub, done — no rebuild step, the page reads `posts.json` live.
+The plan is narrow on purpose: **three vulnerability classes**, studied deep instead of four studied shallow.
 
-## Local preview
+## Focus Areas
 
-Because the page fetches `posts.json`, opening `index.html` directly from disk (`file://`) will fail to load posts in some browsers due to CORS. Run a tiny local server instead:
+| Class | What it covers |
+|---|---|
+| 🔓 **IDOR / Broken Access Control** | Horizontal & vertical privilege escalation — accessing other users' data by manipulating IDs and parameters |
+| 🔑 **Authentication Flaws** | Password reset bugs, session fixation, MFA bypass, token predictability |
+| ⚙️ **Business Logic** | Workflow abuse, price manipulation, trust boundary violations that scanners can't find |
 
-```bash
-python3 -m http.server 8000
-```
+## By the Numbers
 
-Then open `http://localhost:8000`.
+- 27 Hacker101 CTF points
+- 20+ disclosed HackerOne reports analyzed
+- 3 focus vulnerability classes, locked
+- Actively hunting HackerOne VDP programs
+
+## Tools & Stack
+
+**Languages:** Python · JavaScript · Bash · SQL · Go · HTML/CSS
+
+**Testing & Recon:** Burp Suite · Caido · Nmap · Wireshark · Postman · OWASP ZAP
+
+**Infra:** Docker · Git · VirtualBox · Linux
+
+## Repositories
+
+| Repo | Description |
+|---|---|
+| [Bug-bounty-writeups](https://github.com/Malikdishan416/Bug-bounty-writeups) | Structured practice — PortSwigger lab writeups only |
+| [Research-notes](https://github.com/Malikdishan416/Research-notes) | Distilled knowledge: cheat sheets, concepts, techniques — organized by vuln class |
+| [CTF](https://github.com/Malikdishan416/CTF) | Capture The Flag challenges across several platforms |
+| [Bug-bounty-reports](https://github.com/Malikdishan416/Bug-bounty-reports) | Real track record — live hunt findings, disclosed report analysis, lessons from rejections |
+
+---
+
+<div align="center">
+<sub>© Malik Hettige 2026 · This repo hosts <a href="https://malikdishan416.github.io">malikdishan416.github.io</a></sub>
+</div>
