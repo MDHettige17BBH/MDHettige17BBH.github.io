@@ -6,7 +6,7 @@
 
 Hunting IDOR, authentication flaws, and business logic bugs on HackerOne VDP programs.
 
-🔗 **[Live Portfolio →](https://malikdishan416.github.io)**
+🔗 **[Live Portfolio →](https://MalikHettigeBBH.github.io)**
 </div>
 
 ---
