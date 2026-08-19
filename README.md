@@ -20,5 +20,5 @@ The plan is narrow on purpose: **three vulnerability classes**, studied deep ins
 ---
 
 <div align="center">
-<sub>© Malik Hettige 2026 · This repo hosts <a href="https://MalikHettige17.github.io">malikdishan416.github.io</a></sub>
+<sub>© Malik Hettige 2026 · This repo hosts <a href="https://MalikHettigeBBH.github.io">malikdishan416.github.io</a></sub>
 </div>
