@@ -1,0 +1,11 @@
+[
+  {
+    "id": "first-post",
+    "title": "Starting the log",
+    "date": "2026-08-17",
+    "type": "note",
+    "tags": ["meta"],
+    "summary": "Why this site exists and how it'll be used going forward.",
+    "body": "This is the first entry. Every solved lab, every disclosed report analyzed, every live submission — it gets logged here as it happens, not after the fact.\n\nThree focus areas: IDOR / broken access control, authentication flaws, business logic. No scope creep beyond that until the first live VDP submission is in."
+  }
+]
