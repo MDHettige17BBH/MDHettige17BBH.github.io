@@ -6,7 +6,7 @@
 
 Hunting IDOR, authentication flaws, and business logic bugs on HackerOne VDP programs.
 
-🔗 **[Live Portfolio →](https://MDHettige17BBH.github.io)**
+🔗 **[Live Portfolio →](https://MalikHettige.github.io)**
 </div>
 
 ---
@@ -20,5 +20,5 @@ The plan is narrow on purpose: **three vulnerability classes**, studied deep ins
 ---
 
 <div align="center">
-<sub>© Malik Hettige 2026 · This repo hosts <a href="https://MDHettige17BBH.github.io">MDHettige17BBH.github.io</a></sub>
+<sub>© Malik Hettige 2026 · This repo hosts <a href="https://MalikHettige.github.io">MDHettige17BBH.github.io</a></sub>
 </div>
